@@ -1,0 +1,41 @@
+.msg {
+    display: flex;
+    flex-direction: row;
+    padding: 4px 3px 0 4px;
+    margin: 10px;
+    color:grey;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(164, 164, 164);
+    align-items: center;
+    top:-7px;
+    position: relative;
+  }
+  
+  .sent {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    flex-direction: row-reverse;
+    padding:5px 5px 0 5px;
+    text-align: end;
+    margin:"15px";
+    margin-left: 80px;
+    float: right;
+  }
+  
+  .received {
+    border: 1px solid lightgray;
+    background-color: white;
+    float: left;
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 20px;
+    margin:15px;
+    margin-right:80px;
+  }
+
+section::-webkit-scrollbar {
+  display: none;
+  height:300px;
+}
